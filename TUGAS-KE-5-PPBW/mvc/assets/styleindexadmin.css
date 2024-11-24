@@ -1,0 +1,97 @@
+/* Style umum untuk halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style untuk header halaman */
+h2 {
+    text-align: center;
+    color: #814caf; /* Warna hijau untuk heading */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style untuk tombol link */
+a {
+    background-color: #973add; /* Warna hijau */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #973add; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Style untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style untuk header tabel */
+th {
+    background-color: #973add; /* Warna hijau untuk header tabel */
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Style untuk baris tabel */
+td {
+    background-color: #f9f9f9; /* Warna latar belakang baris */
+}
+
+tr:hover td {
+    background-color: #f1f1f1; /* Latar belakang baris saat di-hover */
+}
+
+/* Style untuk link Edit dan Hapus */
+td a {
+    padding: 6px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+td a[href*="edit"] {
+    background-color: #2196F3; /* Warna biru untuk tombol Edit */
+    color: white;
+}
+
+td a[href*="edit"]:hover {
+    background-color: #1976D2; /* Warna biru lebih gelap saat hover */
+}
+
+td a[href*="delete"] {
+    background-color: #F44336; /* Warna merah untuk tombol Hapus */
+    color: white;
+}
+
+td a[href*="delete"]:hover {
+    background-color: #D32F2F; /* Warna merah lebih gelap saat hover */
+}
+
+/* Style untuk spacing antar elemen */
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}

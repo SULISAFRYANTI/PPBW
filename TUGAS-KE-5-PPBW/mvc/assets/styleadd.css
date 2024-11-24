@@ -1,0 +1,64 @@
+/* Style untuk form container */
+form {
+    width: 100%;
+    max-width: 400px; /* Lebar maksimal sedikit dikurangi */
+    margin: 0 auto; /* Agar form berada di tengah halaman */
+    background-color: #fff;
+    padding: 10px; /* Padding kecil untuk tampilan lebih ringkas */
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih halus */
+}
+
+/* Style untuk judul halaman */
+h2 {
+    text-align: center;
+    color: #800080; /* Warna ungu */
+    font-size: 20px; /* Ukuran font lebih kecil */
+    margin-bottom: 10px; /* Kurangi margin bawah */
+}
+
+/* Style untuk label form */
+label {
+    font-size: 14px; /* Ukuran font lebih kecil */
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: inline-block; /* Agar label tetap di atas input */
+}
+
+/* Style untuk input field */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 6px; /* Padding lebih kecil untuk input */
+    margin-top: 4px; /* Kurangi margin atas */
+    margin-bottom: 10px; /* Kurangi margin bawah */
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box; /* Untuk menjaga padding dan border */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #800080; /* Warna ungu saat fokus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+/* Style untuk tombol submit */
+button[type="submit"] {
+    width: 100%;
+    background-color: #800080; /* Warna ungu untuk tombol */
+    color: white;
+    padding: 8px; /* Padding lebih kecil */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #6a006a; /* Warna ungu lebih gelap saat di-hover */
+}

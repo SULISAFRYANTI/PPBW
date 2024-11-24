@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengisi tinggi viewport */
+    background-color: #ffffff; /* Warna latar belakang */
+}
+
+/* Container untuk form */
+.login-container {
+    background-color: #fff; /* Warna latar belakang container */
+    padding: 20px; /* Ruang di dalam container */
+    border-radius: 5px; /* Sudut membulat */
+    max-width: 400px; /* Maksimal lebar 400px */
+    width: 80%; /* Lebar 80% dari viewport */
+    margin: 20px auto; /* Margin otomatis untuk tengah */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Heading */
+.login-container h2 {
+    color: #333; /* Warna teks */
+    text-align: center; /* Teks di tengah */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+/* Input fields */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%; /* Lebar input 100% dari container */
+    padding: 10px; /* Ruang di dalam input */
+    margin-top: 5px; /* Jarak atas input */
+    margin-bottom: 20px; /* Jarak bawah input */
+    border: 1px solid #ccc; /* Border input */
+    border-radius: 3px; /* Sudut membulat pada input */
+}
+
+/* Button */
+.login-container button {
+    background-color: #4CAF50; /* Warna latar belakang button */
+    color: white; /* Warna teks button */
+    border: none; /* Menghilangkan border */
+    padding: 10px; /* Ruang di dalam button */
+    border-radius: 3px; /* Sudut membulat pada button */
+    cursor: pointer; /* Ubah kursor menjadi pointer saat hover */
+    width: 100%; /* Lebar button 100% dari container */
+}
+
+/* Efek hover pada button */
+.login-container button:hover {
+    background-color: #45a049; /* Mengubah warna saat hover */
+}
+
+/* Placeholder styling */
+::placeholder {
+    color: #aaa; /* Warna teks placeholder */
+}
+

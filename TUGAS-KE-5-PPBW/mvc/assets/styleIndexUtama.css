@@ -1,0 +1,44 @@
+/* Style untuk body dan seluruh halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Warna latar belakang yang lembut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi halaman agar sesuai dengan layar */
+    text-align: center; /* Teks dalam elemen berada di tengah */
+    flex-direction: column; /* Agar elemen disusun vertikal */
+}
+
+/* Style untuk judul halaman */
+h1 {
+    color: #4B0082; /* Warna ungu */
+    font-size: 36px; /* Ukuran font besar */
+    margin-bottom: 20px; /* Jarak antara judul dan paragraf */
+    font-weight: bold;
+}
+
+/* Style untuk paragraf */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px; /* Jarak antara paragraf dan tombol */
+}
+
+/* Style untuk link login */
+a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    background-color: #800080; /* Warna ungu untuk tombol */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect untuk link */
+a:hover {
+    background-color: #6a006a; /* Warna ungu lebih gelap saat di-hover */
+}
